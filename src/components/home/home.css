@@ -191,10 +191,10 @@ margin-bottom: var(--mb-2-5);
 
 /* ====== for small devices =====  */
 @media screen and (max-width: 350px) {
-  /* .home-image {
+  .home-image {
     width: 180px;
-    height: 18px;
-  } */
+    height: 180px;
+  }
 }
 
 

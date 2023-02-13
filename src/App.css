@@ -188,13 +188,27 @@ img {
 
 
 
-/* ====== for small devices =====  */
-@media screen and (max-width: 350px) {
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
+/* ====== for medium devices =====  */
+@media screen and (max-width: 768px) {
+  .section {
+     padding: 2rem 0 4rem;
   }
 }
+
+/* ====== for small devices  */
+@media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
+  .container {
+     margin-right: var(--mb-1);
+     margin-right: var(--mb-1);
+  }
+}
+
+
+
 
 
 
