@@ -19,9 +19,7 @@ const About = () => {
           <p className="about-description">
             An enthusiastic Fullstack Web Developer, adept in most stages of
             advanced web development. Basic knowledge in User Interface
-            development, Backend, Database, testing, and debugging processes. A
-            Malawian by nationality, legally residing in the southern suburbs of
-            Cape Town.
+            development, Backend, Database, testing, and debugging processes
           </p>
 
           <a download="" href={CV} className="button button-flex">
